@@ -1,0 +1,447 @@
+html{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	width: 1280px;
+	height: 100%;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family: Roboto,sans-serif;	
+}
+p {
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+}
+
+/* <!-- CSS --> */
+/* header */
+.header{
+	width: 100%;
+	height: 217px;
+	background-color: #153B50;
+	display: flex;
+	flex-direction: row;
+}
+.header p{
+	margin-top: 54px;
+	font-family: Roboto;
+	font-size: 48px;
+	font-weight: 400;
+	color:#FFFFFF;
+}
+.header img{
+	margin-top: 36px;
+	margin-left: 99px;
+	height: 139px;
+	margin-right: 126px;
+}
+/*nav選單*/
+nav li{
+	float: left;
+	padding-top: 47px;
+	padding-right: 29px;
+}
+.header nav img{
+	width: 12px;
+	height: 6px;
+	margin-left: 5px;
+	margin-top: 0px;
+	margin-right: 0px;
+} 
+ul{
+	margin: 0px;
+	list-style-type: none;
+}
+nav a{
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	text-decoration: none;
+	color:#FFFFFF;
+	display: flex;
+	align-items: center;
+}
+nav img{
+	height: 6px;
+	margin-left: 5px;
+}
+
+/*banner*/
+.banner{
+	width: 1280px;
+	height: 313px;
+}
+.banner img{
+	width: 1280px;
+	height: auto;
+}
+.ul_indicator{
+	list-style: none;
+	position:absolute;
+	margin-top: -30px;
+	margin-left: 520px;
+} 
+.ul_indicator li{
+	float:left;
+	margin-left:20px;
+	width:40px;
+	height:5px;
+	border:0px;
+	background-color: #989494;
+}
+.ul_indicator li:hover{
+	background-color: #C8C4C4;
+}
+.banner a{
+	position: absolute;
+	margin-top: 140px;
+}
+.banner .control_right{
+	right: 70px;
+}
+.banner .control_left{
+	left: 70px;
+}
+.banner a img{
+	width: 30px;
+	height: 40px;
+}
+
+
+/* 最新消息 */
+.news {
+	top: 528px;
+	height: 260px;
+}
+.block_title{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 164px;
+	height: 146px;
+	margin-left: 56px;
+	margin-top: 56px;
+}
+.block_title img{
+	width: 88px;
+	height: 88px;
+}
+.title{
+	font-size: 41px;
+	font-weight: 600;
+	margin-top: 18px;
+	text-align: center;
+	color:#593D3B;
+}
+.block_news{
+	width: 1060px;
+	margin-top: 44px;
+}
+.news_content{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}
+.block_news .news_content .block{
+	display: flex;
+	flex-direction: row;
+}
+.block p{
+	font-size: 24px;
+	margin-top: 14px;
+}
+.block hr{
+	height: 129px;
+	width: 1px;
+	color: #595959;
+	margin-right: 41px;
+}
+.news .news_content .block p{
+	text-align: left;
+	line-height: 50px;
+}
+.button_news{
+	width: 172px;
+	height: 51px;
+	margin-top: 22PX;
+	margin-left: 365px;
+}
+.button{
+	font-size: 24px;
+	text-align: center;
+	line-height: 51px;
+	color: #FFF;
+	background-color: #048A81;
+	border-radius: 10px;
+}
+.button:hover{
+	background-color: #1b857e;
+}
+/* <!-- 課程介紹 --> */
+.intro{
+	height: 372px;
+	background-color: #153B50;
+}
+.intro .block_title{
+	margin-top: 88px;
+}
+.intro .title{
+	color: #FFFFFF;
+	font-weight: 600;
+	width: 164px;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000; 
+}
+.block_intro{
+	width: 1116px;
+	height: 372px;
+	margin-left: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-basis: 75%;
+}
+.intro .card{
+	width: 276px;
+	height: 300px;
+	margin-top: 42px;
+	background-color: #fff;
+	border-radius: 0 0 10px 10px;
+}
+.card .content{
+	padding: 15px;
+	line-height: 30px;
+}
+.card .content_title{
+	font-size: 30px;
+	font-weight: 600;
+}
+.card img{
+	width: 276px;
+	height: auto;
+}
+.card .line_through{
+	color:#7A7777;
+	text-decoration: line-through;
+	text-decoration-color: black;
+}
+.intro .block_button{
+	width: 192px;
+	height: 372px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.intro .button_intro{
+	width: 192px;
+	height: 79px;
+	border-radius: 32px;
+	line-height: 79px;
+}
+.intro .block_button img{
+	width: 6px;
+	margin-left: 10px;
+}
+.text_sale{
+	position: absolute;
+	width: 100px;
+	height: 43px;
+	background: #CC998D;
+	text-align: center;
+	line-height: 43px;
+	margin-top: -100px;
+	margin-left: 140px;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 400;
+	color: #FFF;
+}
+
+/* <!-- 學院特色 --> */
+.feature{
+	height: 323px;
+	background-color: #ECEBE4;
+}
+.feature .block_title{
+	margin-top: 62px;
+}
+.feature .block_title p{
+	width: 164px;
+}
+.block_feature{
+	width: 1116px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-basis: 75%;
+	margin-left: 60px;
+}
+.block_feature .card .content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.feature .block_feature .card{
+	width: 230px;
+	height: 279px;
+	margin-top: 15px;
+	background-color: #FFF;
+	border-radius: 10px;
+}
+.feature .block_feature .card img{
+	width: 230px;
+}
+.block_feature p{
+	font-size: 16px;
+	text-align: center;
+	line-height: 23px;
+	font-weight: 400;
+}
+.block_feature .card .content_title{
+	font-size: 16px;
+	color: 	#593D3B;
+	font-size: 24px;
+	font-weight: 700px;
+	padding: 10px;
+}
+.block_feature img{
+	width: 63px;
+}
+.block_feature .card img{
+	width: 240px;
+}
+.block_feature a img{
+	margin-top: 128px;
+}
+.button_feature{
+	font-size: 13px;
+	font-weight: 400;
+	width: 88px;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 30px;
+	margin-top: 8px;
+}
+
+/* <!-- 聯絡我們 --> */
+.contact{
+	height: 243px;
+	background-color: #153B50;
+}
+.contact .block_title{
+	margin-top: 40px;
+	font-weight: 500;
+	line-height: 48px;
+}
+.contact .block_title .title{
+	width: 164px;
+	color: #FFFFFF;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000; 
+}
+.block_contact{
+	width: 1116px;
+	height: 243px;
+}
+.contact_content{
+	position: relative;
+	margin-left: 56px;
+	margin-top: 49px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-basis: 100%;
+}
+.contact .contact_content .block{
+	display: flex;
+	margin-right: 81px;
+}
+.contact .contact_content .block hr{
+	height: 133px;
+}
+.contact .contact_content .block p{
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 40px;
+	margin-top: 0px;
+}
+form{
+	width: 319px;
+	height: 113px;
+	background: #FFF;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 9px;
+}
+.block form input{
+	width: 281px;
+	height: 26px;
+	padding: 0px;
+	border: none;
+	background-color: #ECEBE4;
+	padding-left: 12px;
+	color: rgba(0, 0, 0, 0.46);
+}
+.block .form_email{
+	height: 26px;
+	margin-top: 7px;
+}
+.contact .contact_content .block .form_text{
+	font-size: 18px;
+	font-weight: 600;
+	color: #593D3B;
+	text-align: center;
+	margin-top: 13px;
+	height: 21px;
+	line-height: 21px;
+}
+.button_contact{
+	font-size: 18px;
+	width: 76px;
+	height: 34px;
+	line-height: 34px;
+	margin-left: 121px;
+	margin-top: 7px;
+}
+.block_input{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.media_icon{
+	position: absolute;
+	bottom: -55px;
+	right: 20px;
+}
+.media_icon img{
+	width: 50px;
+	padding-left: 10px;
+}
+
+/* footer */
+footer{
+	background-color: #000000;
+	height: 42px;
+	top: 1736px;
+	left: 509px;
+}
+footer p{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 11px;
+	text-align: center;
+}
