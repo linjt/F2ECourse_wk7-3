@@ -127,6 +127,7 @@ nav img{
 .news {
 	top: 528px;
 	height: 260px;
+	background-color: #ECEBE4;
 }
 .block_title{
 	display: flex;
